@@ -13,8 +13,8 @@ Welcome to the **Oran Taxi Service** website, a modern and user-friendly platfor
 
 ## 🛠️ Technologies Used
 - **Frontend**: HTML, CSS, JavaScript 🌐
-- **Backend**: [Specify if applicable, e.g., PHP, Node.js, or none if static] ⚙️
-- **Database**: [Specify if used, e.g., MySQL, or none if not applicable] 🗄️
+- **Backend**: PHP ⚙️
+- **Database**: MYSQL 🗄️
 - **Version Control**: Git, hosted on GitHub 🐙
 
 ## 🚀 Installation
@@ -22,25 +22,18 @@ Follow these steps to set up the project locally:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/[your-username]/[repository-name].git
+   git clone https://github.com/Fares-kdj/Taxi_Oran.git
    ```
 
 2. **Set Up the Environment**:
-   - Ensure a web server (e.g., Apache) is installed if required.
-   - [If applicable: Configure the backend or database connection, e.g., in `config/db.php`.]
+   - Ensure a web server Apache is installed if required.
 
-3. **Install Dependencies**:
-   - If using a package manager (e.g., Composer or npm), run:
-     ```bash
-     [composer install or npm install]
-     ```
+3. **Database Setup** (if applicable):
+   - Import the database schema from `./taxi_db.sql` into your database.
 
-4. **Database Setup** (if applicable):
-   - Import the database schema from `[path-to-sql-file]` into your database.
-
-5. **Run the Application**:
+4. **Run the Application**:
    - Start your web server and navigate to the project directory.
-   - Access the site via `http://localhost/[project-folder]`.
+   - Access the site via `http://localhost/Taxi_Oran`.
 
 ## 🖱️ Usage
 - **Browse Services**: Explore the list of taxi services with detailed pricing and taxes. 🚕
